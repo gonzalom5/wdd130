@@ -35,14 +35,14 @@ main {
 }
 
 aside {
-    width: 20em;
+    width: 20rem;
     text-align: center;
 }
 
 aside h2 {
     position: absolute;
     top: 520px;
-    left: 144px;
+    left: 145px;
 }
 
 aside img {
@@ -69,6 +69,6 @@ footer {
     margin:1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
-    background-color: #e6e6ad;
+    background-color: #E1F8DC;
     color: #000;
 }
