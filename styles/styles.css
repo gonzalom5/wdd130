@@ -35,7 +35,7 @@ main {
 }
 
 aside {
-    width: 20rem;
+    width: 20em;
     text-align: center;
 }
 
@@ -69,6 +69,6 @@ footer {
     margin:1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
-    background-color: #ddd;
+    background-color: #e6e6ad;
     color: #000;
 }
