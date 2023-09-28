@@ -37,12 +37,13 @@ main {
 aside {
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 
 aside h2 {
     position: absolute;
-    top: 520px;
-    left: 150px;
+    top: -6px;
+    left: 130px;
 }
 
 aside img {
