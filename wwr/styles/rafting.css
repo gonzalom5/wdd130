@@ -23,9 +23,8 @@ p {
     padding: 25px;
 }
 
-a {
+nav a:link {
     text-decoration: none;
-    color: navy;
 }
 
 .hero img{
