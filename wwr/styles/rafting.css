@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather&serif=Kanit&serif=swap');
 :root{
-    --primary-color: #050505;
+    --primary-color: #c58f31;
     --secondary-color: #0fa3b1;
     --accent1-color: #b5e2fa;
     --accent2-color: #f7a072;
@@ -10,24 +10,47 @@
 
     --nav-background-color: #eddea4;
     --nav-link-color: #050556;
-    --nav-hover-link-color: #050505;
+    --nav-hover-link-color: #3139a7;
     --nav-hover-background-color: #f7a072;
 }
 
-h1, h2 {
+h1{
+    position: absolute;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
 p {
     padding: 25px;
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color)
 }
 
 nav a {
     text-decoration: none;
 }
 
-.hero img{
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+article {
+    position: absolute;
+}
+
+article img {
+    float: right;
+}
+
+.hero img {
+    position: relative;
     display: block;
     width: 100%;
     height: auto;
