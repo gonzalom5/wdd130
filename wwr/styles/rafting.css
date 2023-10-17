@@ -158,6 +158,14 @@ footer p {
     text-align: center;
 }
 
+main h1 {
+    text-align: center;
+    position: relative;
+    left: auto;
+    top: 1px;
+
+}
+
 .hero {
     position: relative;
     text-align: center;
