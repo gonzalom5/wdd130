@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre&family=Crimson+Pro:wght@300&family=Permanent+Marker&display=swap');
 
 :root{
     --primary-color: #68cdf8;
@@ -7,6 +7,7 @@
 
     --heading-font: 'Permanent Marker', cursive;
     --paragraph-font: 'Crimson Pro', serif;
+    --paragraph-title: 'Averia Sans Libre', sans-serif;
 
     --nav-background-color: #f6f5eb;
     --nav-header-background-color: #69BE28;
@@ -469,4 +470,48 @@ textarea#message {
 .cta a:hover {
     color: var(--nav-hover-link-color);
     text-decoration: underline;
+}
+
+.image-section {
+    position: relative;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.image-caption {
+    position: absolute;
+    top: 50px;
+    left: 135px;
+    color: var(--nav-header-background-color);
+    font-size: 40px;
+    text-align: justify;
+    background-color: rgba(0.7, 0.7, 0.7, 0.6);
+    background-size: 100%;
+    padding: 20px;
+}
+
+.title h1{
+    color: var(--nav-header-background-color);
+    font-size: 50px;
+}
+
+.newsletter h2, label {
+    color: var(--nav-link-color)
+}
+
+.newsletter h2, .cta p{
+    font-family: var(--paragraph-title);
+}
+
+.newsletter label {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.cta p {
+    text-align: center;
 }
