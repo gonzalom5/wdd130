@@ -122,14 +122,15 @@ article {
 
 article p {
     color: var(--primary-color);
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
-    padding: 30px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
+    padding: 20px;
     font-size: 22px;
 }
 
 article img {
     float: right;
     border: 3px solid var(--primary-color);
+
 }
 
 section figcaption {
@@ -140,11 +141,11 @@ section figcaption {
 
 .hero h1 {
     position: absolute;
-    top: 30px;
-    left: 400px;
+    top: 20px;
+    left: 410px;
     font-family: var(--heading-font);
     color: var(--nav-header-background-color);
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .hero {
@@ -189,7 +190,7 @@ section figcaption {
 .columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 5px;
 }
 
 .column {
@@ -247,7 +248,7 @@ section figcaption {
 }
 
 .plan h2 {
-    color: var(--nav-link-color);
+    color: var(--nav-header-background-color);
     padding-bottom: 20px;
     font-size: 35px;
 }
@@ -392,7 +393,7 @@ main h1{
     font-family: var(--heading-font);
     padding-bottom: 20px;
     padding-top: 20px;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
 
 }
@@ -496,7 +497,7 @@ textarea#message {
     font-size: 35px;
     text-align: center;
     font-family: var(--heading-font);
-    color: var(--nav-);
+    color: var(--nav-link-color);
 }
 
 .trips a:hover {
@@ -530,9 +531,8 @@ textarea#message {
 .image-caption {
     position: absolute;
     top: 50px;
-    left: 70px;
-    color: var(--primary-color);
-    font-size: 45px;
+    left: 40px;
+    font-size: 48px;
     text-align: justify;
     background: linear-gradient(90deg, rgba(40, 40, 43, 0.464) 20%, rgba(40, 40, 43, 0.464) 20%, rgba(40, 40, 43, 0.464) 20%);
     padding: 20px;
