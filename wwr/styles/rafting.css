@@ -442,3 +442,31 @@ textarea#message {
     font-size: 18px;
     padding: 10px;
 }
+
+/* CSS for index */
+
+.newsletter button {
+	width: 100px;
+	height: 34px;
+	background: var(--nav-header-background-color);
+	color: #FFFFFF;
+	border-color: var(--accent1-color);
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 2px 2px 2px 2px;
+	font-family: var(--paragraph-font);
+	font-weight: 600;
+	font-size: 18px;
+	text-align: center;
+}
+
+.cta a{
+    font-size: 30px;
+    font-family: var(--heading-font);
+    color: var(--nav-header-background-color);
+}
+
+.cta a:hover {
+    color: var(--nav-hover-link-color);
+    text-decoration: underline;
+}
