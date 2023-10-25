@@ -397,13 +397,12 @@ main h1{
 }
 
 .team-member figcaption {
-    margin-top: 10px; /* Adjust this value to control the gap */
+    margin-top: 10px;
 }
 
 .team-member p {
-    margin-bottom: 10px; /* Adjust this value to control the gap */
+    margin-bottom: 10px;
 }
-
 
 .radio-message {
     display: flex;
