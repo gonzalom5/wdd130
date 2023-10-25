@@ -192,7 +192,7 @@ section figcaption {
 .column {
     text-align: justify;
     font-family: var(--paragraph-font);
-    font-size: 22px;
+    font-size: 24px;
     padding: 10px;
 }
 
@@ -449,19 +449,33 @@ textarea#message {
 .newsletter button {
 	width: 100px;
 	height: 34px;
-	background: var(--nav-header-background-color);
+	background: var(--nav-link-color);
 	color: #FFFFFF;
 	border-color: var(--accent1-color);
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 2px 2px 2px 2px;
-	font-family: var(--paragraph-font);
+	font-family: var(--paragraph-title);
 	font-weight: 600;
 	font-size: 18px;
 	text-align: center;
 }
 
-.cta a{
+.newsletter h2, label {
+    color: var(--nav-link-color)
+}
+
+.newsletter h2 {
+    font-family: var(--paragraph-title);
+}
+
+.newsletter label {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.cta a {
     font-size: 30px;
     font-family: var(--heading-font);
     color: var(--nav-header-background-color);
@@ -470,6 +484,11 @@ textarea#message {
 .cta a:hover {
     color: var(--nav-hover-link-color);
     text-decoration: underline;
+}
+
+.cta p, .grid-item p {
+    text-align: center;
+    font-size: 25px;
 }
 
 .image-section {
@@ -498,20 +517,13 @@ textarea#message {
     font-size: 50px;
 }
 
-.newsletter h2, label {
-    color: var(--nav-link-color)
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 20px; /* Adjust the gap between grid items as needed */
 }
 
-.newsletter h2, .cta p{
-    font-family: var(--paragraph-title);
-}
-
-.newsletter label {
-    font-size: 25px;
-    font-weight: 500;
-    padding: 20px;
-}
-
-.cta p {
-    text-align: center;
+.grid-item {
+    border: 1px solid #ccc; 
+    padding: 20px; 
 }
