@@ -9,32 +9,50 @@
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-    <body>
-        <header>
-            <img src="images/logo.png" alt="Rafting Site Logo">
-            <nav>
-                <a href="#">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo">
+           <nav>
+               <a href="index.html">Home</a>
+               <a href="about.html">About Us</a>
+               <a href="trips.html">Trips</a>
+               <a href="contact.html">Contact Us</a>
             </nav>
-        </header>
+    </header>
     <main>
-        <section>
-            <h2>Trip 1: Adventure Rapids</h2>   
-            <img src="" alt="Adventure Rapids">
-            <p></p>     
-        </section>
-        <section>
-            <h2>Trip 2: Nature Explorer</h2>   
-            <img src="" alt="Adventure Rapids">
-            <p></p>     
-        </section>
-        <section>
-            <h2>Trip 3: Family Fun</h2>   
-            <img src="" alt="Adventure Rapids">
-            <p></p>     
-        </section>
+        <div class="trip-container">
+            <section class="trip-section">
+                <img src="images/image3.jpg" alt="Adventure Rapids">
+                <div class="trip-description">
+                    <h2>Trip 1: Adventure Rapids</h2>  
+                    <p>Prepare for an adrenaline-pumping journey like no other with our 'Adventure Rapids' white water rafting experience. This trip is designed for the spirited adventurers seeking an electrifying challenge amidst the untamed power of the Mapocho river. 'Adventure Rapids' takes you through the heart of thrilling Class IV and V rapids, where teamwork, strategy, and courage are your companions on this pulse-quickening voyage. Our seasoned guides are experts in navigating these exhilarating waters, ensuring your safety and excitement throughout the journey.</p> 
+                    <a href="book-now.html" class="book-now-button">Book Now!</a>
+                </div>     
+                </section>
+            <section class="trip-section">
+                <img src="images/image2.jpg" alt="Adventure Rapids">
+                <div class="trip-description">
+                    <h2>Trip 2: Nature Explorer</h2>
+                    <p>Embark on an extraordinary journey of discovery with our 'Nature Explorer' white water rafting expedition. This adventure is tailored for those who seek to connect with the raw beauty of nature and experience the tranquil yet exhilarating world of the Maipo river. As you navigate the pristine waters, you'll be immersed in breathtaking landscapes and abundant wildlife. The 'Nature Explorer' trip offers a unique opportunity to witness the wonders of untouched nature, from the serene stretches of the river to the heart-pounding excitement of Class III and IV rapids.</p>
+                    <a href="book-now.html" class="book-now-button">Book Now!</a>
+                </div>        
+            </section>
+            <section class="trip-section">  
+                <img src="images/image6.jpg" alt="Family Fun">
+                <div class="trip-description">
+                    <h2>Trip 3: Solo Traveler</h2> 
+                    <p>Experience the world on your terms with our 'Solo Traveler' adventures. This is a journey uniquely tailored for those who seek the thrill of exploration, the joy of self-discovery, and the freedom to chart their own course. Solo travel is an opportunity to immerse yourself in diverse cultures, engage with locals, and create memories that are entirely your own. It's a chance to step out of your comfort zone, embrace new experiences, and build self-confidence like never before.</p>
+                    <a href="book-now.html" class="book-now-button">Book Now!</a>
+                </div>    
+            </section>
+            <section class="trip-section">  
+                <img src="images/image5.jpg" alt="Family Fun">
+                <div class="trip-description">
+                    <h2>Trip 4: Family Fun</h2> 
+                    <p>Discover the perfect adventure for the whole family with our 'Family Fun' white water rafting experience. Immerse yourselves in the natural beauty of the river as you embark on a thrilling yet safe journey through gentle rapids and breathtaking landscapes. This trip is carefully designed for families of all ages, from the youngest adventurers to the young at heart. Our professional guides ensure that safety is a top priority, so you can focus on creating cherished memories together. </p>
+                    <a href="book-now.html" class="book-now-button">Book Now!</a>
+                </div>    
+            </section>
+        </div>
         <section>
             <h2>All Available Trips</h2>
             <table>
@@ -54,7 +72,13 @@
                     <td>Nature Explorer</td>
                     <td>2 days</td>
                     <td>Medium</td>
-                    <td>$299</td>
+                    <td>$239</td>
+                </tr>
+                <tr>
+                    <td>Solitary Wandering</td>
+                    <td>1 day</td>
+                    <td>Medium</td>
+                    <td>$99</td>
                 </tr>
                 <tr>
                     <td>Family Fun</td>
@@ -66,7 +90,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy2023 🏞️ Splash White Water Rafting 🏞️ Gonzalo Martinez</p>
+        <p>&copy; 2023 🏞️ Splash White Water Rafting 🏞️ Gonzalo Martinez</p>
         <nav class="sociallinks">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.svg" alt="Facebook" width="40">
